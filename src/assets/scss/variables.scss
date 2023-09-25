@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$bg-color: #f8f8ff;
+$green: #00d56a;
+$white: #fff;
+$black: #000;
+$dark-blue: #01002c;
+
+//font
+$font-noto: Noto Sans;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 18px;
+
+$font-weight-regular: 400;
+$font-weight-semi-bold: 500;
+$font-weight-bold: 700;
+
+
+$all-sides-large: 8px;
+:export {
+  bg-color: $bg-color;
+  green: $green;
+  white: $white;
+  black: $black;
+  dark-blue: $dark-blue;
+
+  font-noto: $font-noto;
+  font-size-sm: $font-size-sm;
+  font-size-md: $font-size-md;
+  font-size-lg: $font-size-lg;
+  font-weight-regular: $font-weight-regular;
+  font-weight-semi-bold: $font-weight-semi-bold;
+  font-weight-bold: $font-weight-bold;
+
+  all-sides-large: $all-sides-large;
+}
