@@ -2,6 +2,8 @@
 import { YandexMap, YandexMarker } from 'vue-yandex-maps'
 import BaseButton from '@/components/ui/BaseButton.vue'
 
+defineEmits(['close-map'])
+
 defineProps({
   coordl1: Number as number | unknown,
   coordl2: Number as number | unknown
@@ -10,7 +12,7 @@ defineProps({
 const YSettings = {
   apiKey: import.meta.env.VITE_SOME_API_KEY_YANDEX_MAP, // Индивидуальный ключ API
   lang: 'ru_RU', // Используемый язык
-  debug: true, // Режим отладки
+  debug: false, // Режим отладки
   version: '2.1' // Версия Я.Карт
 }
 </script>
