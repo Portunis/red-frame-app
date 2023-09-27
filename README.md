@@ -25,3 +25,28 @@ Expected execution time ---------------- 8-10 hours
 * Display a list of apartments - all information in the card should be displayed based on the data of the JSON file.
 * By clicking on the marker icon in the card, a map with the geo-label of the corresponding apartments opens. The other buttons in the layout have no functionality.
 * Implement full-screen viewing of photos in the card by clicking on the camera icon using the gallery (any).
+
+
+# Stack
+
+```
+1. VUE
+2. TYPESCRIPT
+3. VITE
+```
+
+# Install App
+
+### npm
+```
+npm install
+npm run format
+npm run dev
+```
+
+
+### .env
+```
+VITE_SOME_BASE_URL_API=YOUR_API_URL
+VITE_SOME_API_KEY_YANDEX_MAP=YOUR_API_KEY_YANDEX_MAP
+```
